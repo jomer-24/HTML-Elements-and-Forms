@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Elements and Forms</title>
+</head>
+<body>
+    <main>
+        <!-- Images -->
+        <div>
+            <h2>My top 3 Anime list</h2>
+            <img src="https://i.ebayimg.com/images/g/oL0AAOSwtj9hDPDc/s-l1600.jpg" width="300" height="300" alt="Code Geass">
+            <img src="https://m.media-amazon.com/images/I/61EObBCnIRL._AC_UF894,1000_QL80_.jpg" width="300" height="300"
+                alt="Steins Gate">
+            <img src="https://m.media-amazon.com/images/M/MV5BODA4NTE3NDMtYjViZS00NDIzLWE0ZTgtZjkwNDE3NWRlNzRkXkEyXkFqcGdeQXVyMzgxODM4NjM@._V1_FMjpg_UX1000_.jpg"
+                width="300" height="300" alt="Bungou Stary Dogs">
+        </div>
+
+        <br><br>
+
+        <!-- Tables -->
+        <h2>My Weekly Schedule</h2>
+        <table>
+            <tr>
+                <th></th>
+                <th>Monday</th>
+                <th>Tuesday</th>
+                <th>Wednesday</th>
+                <th>Thursday</th>
+                <th>Friday</th>
+                <th>Saturday</th>
+                <th>Sunday</th>
+            </tr>
+            <tr>
+                <th><em>Morning</em></th>
+                <td>Work</td>
+                <td>Work</td>
+                <td>Work</td>
+                <td>Work</td>
+                <td>Work</td>
+                <td>Study web development</td>
+                <td>Study web development</td>
+            </tr>
+            <tr>
+                <th><em>Afternoon</em></th>
+                <td>Work</td>
+                <td>Work</td>
+                <td>Work</td>
+                <td>Work</td>
+                <td>Work</td>
+                <td>Study web development</td>
+                <td>Study web development</td>
+            </tr>
+            <tr>
+                <th><em>Evening</em></th>
+                <td>Watching Anime</td>
+                <td>Watching Anime</td>
+                <td>Watching Anime</td>
+                <td>Watching Anime</td>
+                <td>Watching Anime</td>
+                <td>Basketball</td>
+                <td>Basketball</td>
+            </tr>
+        </table>
+
+        <br><br>
+        <!-- HTML Forms -->
+        <h2>Feedback Form</h2>
+        <form>
+            <div>
+                <label for="name">Name:</label><input type="text" placeholder="John Doe" id="name" name="name" required>
+            </div><br>
+            <div>
+                <label for="email">Email:</label><input type="text" placeholder="yourname@domain.com" id="email" name="email" required>
+            </div><br>
+            <div>
+                <label for="feedback">Feedback</label>
+                <textarea name="feedback" id="feedback" cols="20" rows="4" placeholder="Leave a message" required></textarea>
+            </div>
+            <div>
+                <h4>How did you find about our product/service?</h4>
+                <span>Social Media</span><input type="radio" name="pick">
+                <span>Friend</span><input type="radio" name="pick">
+                <span>Advertisement</span><input type="radio" name="pick">
+            </div>
+            <br><br>
+            <button type="submit">Submit</button>
+        </form>
+    </main>
+</body>
+</html>
